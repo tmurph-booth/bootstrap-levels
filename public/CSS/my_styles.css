@@ -1,0 +1,82 @@
+body {
+  padding: 30px;
+}
+
+.base-button {
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.pretty-button {
+  background-color: #0d6efd;
+}
+
+.base-button:hover {
+  box-shadow: 0px -1px 30px 5px rgba(0,0,0,0.2) inset;
+  -webkit-box-shadow: 0px -1px 30px 5px rgba(0,0,0,0.2) inset;
+  -moz-box-shadow: 0px -1px 30px 5px rgba(0,0,0,0.2) inset;
+}
+
+.pretty-button:active {
+  background-color: #0a58ca;
+}
+
+.success-button{
+  background-color: green;
+}
+
+.danger-button{
+  background-color: red;
+}
+
+.secondary-button{
+  background-color: gray;
+}
+
+.warning-button{
+  background-color: orange;
+}
+
+.info-button{
+  background-color: turquoise;
+}
+
+
+.pretty-button-unobtrusive {
+  color: #0d6efd;
+  background-color: white;
+  border: 1px solid #0d6efd;
+}
+
+.success-button-unobtrusive{
+  color: green;
+  background-color: white;
+  border: 1px solid green;
+}
+
+.danger-button-unobtrusive{
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+}
+
+.secondary-button-unobtrusive{
+  color: gray;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.warning-button-unobtrusive{
+  color: orange;
+  background-color: white;
+  border: 1px solid orange;
+}
+
+.info-button-unobtrusive{
+  color: turquoise;
+  background-color: white;
+  border: 1px solid turquoise;
+}
